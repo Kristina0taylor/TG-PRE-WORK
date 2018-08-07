@@ -1,0 +1,32 @@
+ Kristina Taylor-Huffman
+Tech Tonic Group: 
+Technical Writing
+August 2018
+
+● When we hit https://www.techtonicgroup.com/ what happens? Don’t focus too much on architecture
+(Monolithic, SOA, Microservices, etc.). Try to focus more on how the web functions.
+ ● From start to finish how does that data reach you to be rendered in the browser?
+ ● What code is rendered in the browser?
+ ● What is the server-side code’s main function?
+ ● What is the client-side code’s main function?
+ ● How many instances of the client-side assets (HTML, CSS, JS, Images, etc.) are created?
+ ● How many instances of the server-side code are available at any given time?
+ ● What is runtime?
+ ● How many instances of the the databases connected to the server application are created?
+
+Clicking upon the address link https://www.techtonicgroup.com/  a new tab pops up into my browser (Safari in my case). Your browser will extract the protocol (HTTP) host, resource path, port numbers and query strings. 
+This is when your browser checks the cache for a DNS record in order to find the correlating IP address of the web address. 
+A Domain Name System (DNS) is a database that stores the name of the URL (website) along with the IP addresses it links to. All URLs have an IP address, these belong to a computer that hosts the server of that particular website in which we are trying to reach. Think of google.com as a phone number: Example 506.444.6656… you can reach that same site by typing that corresponding #, like so, http://506.444.6656 in your browser. 
+For the DNS to find the record the browser checks 4 caches: The Browser cache (previously visited sites, recent). OS cache: If not traced the browser makes a decision to fetch the record as the OS is part of the DNS records as well. Third, it checks the router cache, if not there it continues on to the ISP.  Forth is the ISP cache, this is the last and final if non of the other caches find records. ISPs have its own server that holds DNS cache’. You can hopefully not visualize that your clicked link will travel many network devices before reaching its desired destination. However, if after the search has not found a response/record, the server will respond with a failure or error. 
+The browser has now received the correct IP address and will create a connection to transfer information. Browsers user many internet protocols to create these connections but the most commonly used is a TCP protocol for HTTP requests. To transfer information between server and computer (Me) you must have this connection (TCP) established,  also called a “three-way handshake”, this process exchanges SYN (synchronize) and ACK (acknowledge). Client sends a SYN packet to server over the web asking for a new connection, if that link works and is accepted by the server it then ACKnowledges the connection, then the client receives the SYN/ACK packet from the server and will acknowledge it by sending an ACK packet, in which results, of the TCP connection that then sets the data transmission. YAY! 
+Once beginning a program, this can be considered a duration in which that program is being run on a computer. Upon starting a program,  timing between when the program begins to run in the memory, to when it is closed by the OS or user. 
+Rendering: rendering engine can display HTML and XML documents and images. It can also materialize other types of data via plug-ins or extension; for example, displaying PDF documents using a PDF viewer. 
+
+
+As much as server-side and client-side programming sound the same, the generally have different purposes/concerns and don’t use the same program languages. Although, it is useful to know that JavaScript can be used on the server-side and client-side. 
+Client-side code is written using CSS, HTML, and  JavaScript. The web browser has no or little access to underlying operating systems. Developers are not able to control what browser a user might be using… hints why you often have to use different sources for certain sites (safari, Mozilla, Chrome, etc.). This happens because browsers have inconsistent levels of compatibility with client-side code, leading to challenges such as handling differences in browser support. 
+Server-side code can be written in many different program languages, such as; Python, ruby, C, nodej, and PHP. Developers can choose what program language they’d like to use and have full access to the server operating systems. Server-side programming is super useful in the sense of UX. It can deliver tailored information for individuals, creating a more satisfying experience for the user. Server-sides 
+Overall, both Server-side and client-side codes use frameworks with different domains thus utilizing different frameworks. Client-side framework is to simplify presentation and layouts while server-side frameworks provide web server functionality. 
+
+
+It is my goal and hope to be apart of a team such as Tech Tonic. To me, the overview makes a lot more sense than other “ bootcamps” out there, and this one seems to cover more bases than others. Not to mention, I’m a hands on learner and like the pressure to prove myself. I may be a noob but I’m a dedicated one! Thank you for considering me, hope to hear from you all soon. Fingers crossed! 
