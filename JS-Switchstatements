@@ -1,5 +1,3 @@
-let moonPhase = 'full';
-
 switch (moonPhase) {
   case 'full':
     console.log('Howl!');
