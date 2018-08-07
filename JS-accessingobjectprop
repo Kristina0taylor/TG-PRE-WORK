@@ -1,0 +1,7 @@
+let person = {
+  name: 'kristina',
+  age: 33
+};
+
+console.log(person.kristina);
+console.log(person.Thirty);

@@ -1,0 +1,7 @@
+let person = {
+  name: 'Kristina',
+  age: 33
+};
+
+console.log(person['Kristina']);
+console.log(person['33']);
